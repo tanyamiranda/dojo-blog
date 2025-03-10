@@ -1,7 +1,7 @@
-# Dojo-blog 
-This app is part of a course on Udemy course titled [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/).
+# Dojo Blog 
+This app is part of a course on Udemy titled [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/).
 
-This is a basic blog app where the data is stored in a local json file (data/db.json). This app runs only in a local server environment. 
+This is a basic blog app where the data is stored in a local json file (data/db.json). This app runs only in a local server environment and is for learning purposes only. 
 
 ### 1 - Install all packages for development environment
 ```
