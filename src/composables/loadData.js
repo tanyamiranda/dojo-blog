@@ -3,7 +3,6 @@ import {ref} from 'vue'
 const URI_POSTS_JSON = "http://localhost:2222/posts";
 
 // This requires the local jason server to be running.
-// 
 const fetchData = (uri) => {
     const data = ref([])
     const error = ref(null)
@@ -13,7 +12,7 @@ const fetchData = (uri) => {
 
             delayCall();
 
-            console.log("Loading data from " + uri)
+            //console.log("Loading data from " + uri)
             const response = await fetch(uri)
             data.value = await response.json()
         } 

@@ -1,15 +1,17 @@
-<h1>For this app, you need to start json server first and then the local server.</h1>
-<p>Currently, this app can only run locally. No json-server hosting is available to run this app on github.</p>
+# Dojo-blog 
+This app is part of a course on Udemy course titled [Build Web Apps with Vue JS 3 & Firebase](https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/).
 
-### 1st - install json-server in this local project instance
+This is a basic blog app where the data is stored in a local json file (data/db.json). This app runs only in a local server environment. 
+
+### 1 - Install all packages for development environment
 ```
-npm install jason-server
+npm install
 ``` 
-### 2nd - Run JSON server to server json files on port 5555. The code uses the json file at this specific port.
+### 2 - Run JSON server to server json files on specific. The code uses the json file at this specific port.
 ```
 npx json-server data/db.json --port 2222
 ```
-### 3rd - Open separate terminal windpw and run server app.
+### 3 - Compiles and hot-reloads for development
 ```
 npm run serve
 ```

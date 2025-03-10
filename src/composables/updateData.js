@@ -21,11 +21,6 @@ const updateData = (uri, updateType) => {
                 throw "DATA IS EMPTY"
             }                
 
-            console.log("updateData()...")
-            console.log("updateType", updateType)
-            console.log("uri", uri)
-            console.log("data", data)
-
             const response = await fetch(uri, {
                 method: updateType,
                 headers: {'Content-Type': 'application/json'},
@@ -33,7 +28,6 @@ const updateData = (uri, updateType) => {
             })
 
             success.value = true
-            console.log("response", response)
             
         }   
         catch (err) {

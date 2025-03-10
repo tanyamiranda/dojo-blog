@@ -52,6 +52,7 @@ export default {
         const tag = ref('')
         const tags = ref([])
 
+        const spinnerMessage = ref("Loading . . .")
         const displaySpinner = ref(false)
         const router = useRouter();
         
@@ -73,6 +74,7 @@ export default {
 
         const addNewPost = () => {
 
+          spinnerMessage.value = "Creating new post"
             displaySpinner.value = true;
 
             const newPost = {
@@ -90,7 +92,7 @@ export default {
             
         }
 
-        return {title, body, tag, tags, addTag, removeTag, addNewPost, error, success, displaySpinner}
+        return {title, body, tag, tags, addTag, removeTag, addNewPost, error, success, displaySpinner, spinnerMessage}
     },
 
    

@@ -140,6 +140,27 @@
         "SOUPS"
       ],
       "date": "2025-03-10T00:18:10.970Z"
+    },
+    {
+      "id": "af60",
+      "title": "Using json-server locally",
+      "body": "You are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.You are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.\n\nYou are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.You are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.",
+      "tags": [
+        "PROGRAMMING",
+        "servers"
+      ],
+      "date": "2025-03-10T00:27:01.399Z"
+    },
+    {
+      "id": "fb75",
+      "title": "Styling HTML data",
+      "body": "You are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.You are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.\n\nYou are running the esm-bundler build of Vue, which expects these compile-time feature flags to be globally injected via the bundler config in order to get better tree-shaking in the production bundle.",
+      "tags": [
+        "PROGRAMMING",
+        "HTML",
+        "CSS"
+      ],
+      "date": "2025-03-10T00:31:43.388Z"
     }
   ]
 }
